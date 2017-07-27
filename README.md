@@ -1,4 +1,5 @@
 ###项目目的
+
 * 1 展示springboot项目中junit框架和mockito框架实现业务代码分层的单元测试
     * 1.1 在Controller层以spring提供的MockMvc为基础,实现api层的单元测试
     * 1.2 在Service层单测,主要以@InjectMocks注解和@Mock注解,实现service与dao的依赖注入,但是dao层所有结果以mock的形式生成
